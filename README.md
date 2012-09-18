@@ -26,12 +26,12 @@ PVJuggler
   - Phd student at University of Louisiana at Lafayette under Dr. Carolina Cruz-Neira.
   - Research Engineer at Kitware Inc.
 
-  Sebastien Jourdain:
-  - Research Engineer at Kitware Inc.
-
   Carolina Cruz-Neira:
   - W. Hansen Hall and Mary Officer Hall/BORSF Endowed Super Chair in
     Telecommunications at University of Louisiana at Lafayette.
+
+  Sebastien Jourdain:
+  - Research Engineer at Kitware Inc.
 
 Note: This is currently at prototyping stage.
 
