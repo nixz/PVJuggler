@@ -47,7 +47,9 @@ Steps to Build and Install:
 After cloning the repo
 
 [localhost] # mkdir ParaView-build
+
 [localhost] # cd ParaView-build
+
 [localhost] # cmake-gui ../ParaView
 
 At this point VRJuggler and ParaView build/install locations may need to be
@@ -55,6 +57,7 @@ provided if not already found by CMake. Configure Generate and Exit the
 cmake-gui. When everything looks okay run ..
 
 [localhost] # make
+
 [localhost] # make install ; Optional
 
 Steps to Run:
