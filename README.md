@@ -51,7 +51,7 @@ Clone the repo
 Make a build directory
 
 `# mkdir PVJuggler-build`
-# cd PVJuggler-build`
+`# cd PVJuggler-build`
 
 Configure the project using CMake
 
@@ -61,8 +61,8 @@ At this point VRJuggler and ParaView build/install locations may need to be
 provided if not already found by CMake. Configure Generate and Exit the
 cmake-gui. When everything looks okay run ..
 
-`# make
-# make install ; Optional`
+`# make`
+`# make install ; Optional`
 
 Steps to Run:
 -------------
