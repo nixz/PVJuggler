@@ -46,7 +46,7 @@ Steps to Build and Install:
 ---------------------------
 Clone the repo
 
-# git clone git@github.com:nixz/PVJuggler.git
+`# git clone git@github.com:nixz/PVJuggler.git`
 
 Make a build directory
 
