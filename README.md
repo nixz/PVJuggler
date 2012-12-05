@@ -44,33 +44,39 @@ Requirements:
 
 Steps to Build and Install:
 ---------------------------
-After cloning the repo
+Clone the repo
 
-[localhost] # mkdir ParaView-build
+# git clone git@github.com:nixz/PVJuggler.git
 
-[localhost] # cd ParaView-build
+Make a build directory
 
-[localhost] # cmake-gui ../ParaView
+# mkdir PVJuggler-build
+
+# cd PVJuggler-build
+
+Configure the project using CMake
+
+# cmake-gui ../PVJuggler
 
 At this point VRJuggler and ParaView build/install locations may need to be
 provided if not already found by CMake. Configure Generate and Exit the
 cmake-gui. When everything looks okay run ..
 
-[localhost] # make
+# make
 
-[localhost] # make install ; Optional
+# make install ; Optional
 
 Steps to Run:
 -------------
 Start paraview server in multi-client (collaboration mode)
 
-[localhost] # pvserver --multi-clients
+# pvserver --multi-clients
 
 Start paraview and connect to pvserver at host (we are assuming local host)
 
-[localhost] # paraview -url=cs://t:11111
+# paraview -url=cs://t:11111
 
 Start PVJuggler client and connect to pvserver
 
-[localhost] # VJ_BASE_DIR=<path/to/vrjuggler/base/directory> ./VRJugglerClient -vr=<path/              pto/vrjuggler/config/file/something.jconf>
+# VJ_BASE_DIR=<path/to/vrjuggler/base/directory> ./VRJugglerClient -vr=<path/              pto/vrjuggler/config/file/something.jconf>
 
